@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SandShield</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="/">
+            <img
+              fetchpriority="high"
+              width="120"
+              height="46"
+              src="image.png"
+              alt="Kreesalis Logo"
+            />
+          </a>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="nav-links">
+          <ul>
+            <li><a href="../index/index.html">Home</a></li>
+            <li><a href="../about us/about us.html">About Us</a></li>
+            <li class="has-submenu">
+              <a href="#" aria-haspopup="true" aria-expanded="false">
+                Products ▼
+              </a>
+
+              <!-- Dropdown menu -->
+              <ul class="elementor-nav-menu">
+                <li><a href="../index/index.html">API Security</a></li>
+                <li>
+                  <a href="https://kreesalis.ai/k-control/"
+                    >Cloud-Native Application Protection Platform (CNAPP)</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a href="../industries/industries.html">Industries</a></li>
+            <li><a href="../partners/partners.html">Partners</a></li>
+            <li><a href="../resources/resources.html">Resources</a></li>
+            <li id="login">
+              <a href="../login or sign up/login or sign up.html">
+                Login/Sign Up</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hamburger Menu -->
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-homepage">
+      <div class="hero-homepage__wrapper hero-homepage__wrapper--video">
+        <!-- ✅ BACKGROUND VIDEO -->
+        <video autoplay muted loop playsinline class="hero-video">
+          <source src="video.mp4" type="video/mp4" />
+        </video>
+
+        <!-- Overlay (dark layer for readability) -->
+        <div class="hero-overlay"></div>
+
+        <!-- Content -->
+        <div class="hero-homepage__content">
+          <div class="hero-homepage__content--left">
+            <div class="hero-homepage__title">
+              <h1>
+                <span class="gradient-text">AI-driven</span>
+                protection that stays ahead of application threats
+              </h1>
+            </div>
+
+            <div class="hero-homepage__summary">
+              <p>
+                SandShield is a next-generation security platform that detects,
+                prioritizes, and neutralizes vulnerabilities across your
+                applications
+                <strong><em>and</em></strong> cloud environment.
+              </p>
+            </div>
+
+            <div class="hero-homepage__buttons">
+              <a href="#" class="button-primary">Request a Demo</a>
+              <a href="#" class="button-secondary">Play video</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <div
+        id="autoCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="4000"
+      >
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="slide-content">
+              <!-- Left: Image -->
+              <div class="slide-image">
+                <img
+                  src="/sites/default/files/2026/03/26/Posture%20management.svg"
+                  alt="Security Posture Management"
+                />
+              </div>
+
+              <!-- Middle: Text -->
+              <div class="slide-text">
+                <div class="tab__eyebrow">New Release</div>
+                <h3 class="tab__subhead">Security Posture Management</h3>
+                <p class="tab__summary">
+                  Gain a complete understanding of your security posture with
+                  automated discovery, continuous monitoring, and actionable
+                  insights to strengthen your cyber resilience.
+                </p>
+              </div>
+
+              <!-- Right: Button -->
+              <div class="slide-button">
+                <a
+                  href="/products/security-posture-management"
+                  class="learn-more-btn"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="slide-content">
+              <div class="slide-image">
+                <img
+                  src="/sites/default/files/2026/03/26/Dark%20web.svg"
+                  alt="Dark Web Intelligence"
+                />
+              </div>
+              <div class="slide-text">
+                <div class="tab__eyebrow">New Release</div>
+                <h3 class="tab__subhead">
+                  Dark Web Intelligence for Supply Chains
+                </h3>
+                <p class="tab__summary">
+                  Detect early signs of potential threats and exposures across
+                  your supply chain, giving your teams the data needed to
+                  proactively manage vendor risk and prevent breaches.
+                </p>
+              </div>
+              <div class="slide-button">
+                <a
+                  href="/products/features/dark-web-intelligence-supply-chain-risk"
+                  class="learn-more-btn"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="slide-content">
+              <div class="slide-image">
+                <img
+                  src="/sites/default/files/2026/03/26/Adversay%20intelligence.svg"
+                  alt="Adversary Intelligence"
+                />
+              </div>
+              <div class="slide-text">
+                <div class="tab__eyebrow">What's New</div>
+                <h3 class="tab__subhead">
+                  Adversary & Ransomware Intelligence
+                </h3>
+                <p class="tab__summary">
+                  Expose adversary relationships, monitor activity patterns, and
+                  analyze behavior trends to prioritize response and focus
+                  investigations where they matter most.
+                </p>
+              </div>
+              <div class="slide-button">
+                <a
+                  href="/products/adversary-intelligence"
+                  class="learn-more-btn"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Arrows inside the box -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#autoCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#autoCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
